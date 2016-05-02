@@ -1,0 +1,284 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "chrome.exe",3</Name>
+    <StartTime>2016-05-02 16:33:33</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>a561f2ece85b44538650e1114e9c1a81</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Shoe Store:.Sync</Name>
+    <Description />
+    <StartTime>2016-05-02 16:33:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\raoam\Desktop\Shoe.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Shoe Store]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Shoe Store:]]></Name>
+          </Object>
+        </Path>
+        <Operation>Sync</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Shoe Store:.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7d8be02c891b442f85e84f6cab6f32f8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ January ].Click</Name>
+    <Description />
+    <StartTime>2016-05-02 16:33:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\raoam\Desktop\Shoe.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Shoe Store]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Shoe Store:]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ January ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>8d740e0bff8c4be7a1c9694c2c8acba9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Shoe Store:</Name>
+    <Description>Page</Description>
+    <StartTime>2016-05-02 16:33:38</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\raoam\Desktop\Shoe.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Shoe Store]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Shoe Store:]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Shoe Store:.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7d8be02c891b442f85e84f6cab6f32f8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Shoe Store</Name>
+    <Description>Browser</Description>
+    <StartTime>2016-05-02 16:33:38</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\raoam\Desktop\Shoe.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Shoe Store]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Browser]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Shoe Store.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>0081ffbff2174fe1bf6e0cf0357d06eb</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Wrong number of arguments or invalid property assignment: 'Sync'</Name>
+    <ErrorText>Wrong number of arguments or invalid property assignment: 'Sync'</ErrorText>
+    <Description>&lt;BR/&gt;Line (18): &amp;quot;oPg.Sync(5)&amp;quot;.</Description>
+    <StartTime>2016-05-02 16:33:39</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>Action1</ModuleName>
+          <FileName>Action1</FileName>
+          <Language>VBScript - script block</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>oPg.Sync(5)</Scripts>
+          <LineNo>18</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>C:\Users\raoam\Desktop\Shoe.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Shoe Store]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<BR/>Line (18): &quot;oPg.Sync(5)&quot;.]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Shoe Store.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8af5c614ea2f4229a31e3cfd132d29dc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\7a75068f-04b4-405e-8c36-79c48a1058c4.jpeg" highlight="0,0,1680,1010" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2016-05-02 16:34:11</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>7ff95ffacae14f628c8f4a98462f5c7f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Shoe Store</Name>
+    <Description>Browser</Description>
+    <StartTime>2016-05-02 16:33:39</StartTime>
+    <Duration>32</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\raoam\Desktop\Shoe.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Shoe Store]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Browser]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Shoe Store.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>0081ffbff2174fe1bf6e0cf0357d06eb</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2016-05-02 16:33:33</StartTime>
+    <Duration>38</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>e8b0ab588e5c409f955bd37c7eeae4b8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2016-05-02 16:33:32</StartTime>
+    <Duration>39</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>66c6c36de7bb4f9aa82a63fca8def203</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>VerifyImag</Name>
+    <ToolName>HP Unified Functional Testing</ToolName>
+    <ToolVersion>12.52</ToolVersion>
+    <Description />
+    <StartTime>2016-05-02 16:33:31</StartTime>
+    <Duration>40</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>56e4b30e6c3140fb98900c95840ea26f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-04:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>raoam</User>
+      <CpuInfo>Intel(R) Core(TM) i7-2675QM CPU @ 2.20GHz</CpuInfo>
+      <NumberOfCores>1</NumberOfCores>
+      <TotalMemory>8021</TotalMemory>
+      <HostName>DESKTOP-BVH9UC5</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res3</ResultName>
+    <RunStartTime>2016-05-02 16:33:31</RunStartTime>
+    <Timezone>-04:00:00</Timezone>
+    <OrchestrationToolName>HP Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>12.52</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>

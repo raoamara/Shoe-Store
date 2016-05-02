@@ -1,0 +1,483 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "chrome.exe",3</Name>
+    <StartTime>2016-05-02 16:29:49</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>2c808e2254fb48cab79cae848bf43a43</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Shoe Store:.Sync</Name>
+    <Description />
+    <StartTime>2016-05-02 16:29:56</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\raoam\Desktop\Shoe.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Shoe Store]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Shoe Store:]]></Name>
+          </Object>
+        </Path>
+        <Operation>Sync</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Shoe Store:.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7458fd03c38c411d98b1aaeb468b7d69</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ January ].Click</Name>
+    <Description />
+    <StartTime>2016-05-02 16:29:57</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\raoam\Desktop\Shoe.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Shoe Store]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Shoe Store:]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ January ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>a7d866be47aa456c9fec5272c8b04db1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Shoe Store:.Sync</Name>
+    <Description />
+    <StartTime>2016-05-02 16:29:57</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\raoam\Desktop\Shoe.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Shoe Store]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Shoe Store:]]></Name>
+          </Object>
+        </Path>
+        <Operation>Sync</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Shoe Store:.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7458fd03c38c411d98b1aaeb468b7d69</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Shoe Store:</Name>
+    <Description>Page</Description>
+    <StartTime>2016-05-02 16:29:56</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\raoam\Desktop\Shoe.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Shoe Store]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Shoe Store:]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Shoe Store:.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7458fd03c38c411d98b1aaeb468b7d69</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Shoe Store</Name>
+    <Description>Browser</Description>
+    <StartTime>2016-05-02 16:29:56</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\raoam\Desktop\Shoe.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Shoe Store]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Browser]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Shoe Store.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>41580fe5c184463fa27aa13ad374a5a9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>The "wb_Shoes"  object was not found in the Object Repository.</Name>
+    <ErrorText>The "wb_Shoes"  object was not found in the Object Repository.
+Check the Object Repository to confirm that the object exists or to find the correct name for the object.</ErrorText>
+    <Description>The &amp;quot;wb_Shoes&amp;quot;  object was not found in the Object Repository.&lt;BR/&gt;Check the Object Repository to confirm that the object exists or to find the correct name for the object.&lt;BR/&gt;Line (19): &amp;quot;if oPg.WebElement(&amp;quot;wb_Shoes&amp;quot;).Exist(2) then&amp;quot;. </Description>
+    <StartTime>2016-05-02 16:29:57</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>Action1</ModuleName>
+          <FileName>Action1</FileName>
+          <Language>VBScript - script block</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>if oPg.WebElement("wb_Shoes").Exist(2) then</Scripts>
+          <LineNo>19</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>C:\Users\raoam\Desktop\Shoe.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Shoe Store]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[The &quot;wb_Shoes&quot;  object was not found in the Object Repository.<BR/>Check the Object Repository to confirm that the object exists or to find the correct name for the object.<BR/>Line (19): &quot;if oPg.WebElement(&quot;wb_Shoes&quot;).Exist(2) then&quot;. ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Shoe Store.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>b3d95b4bf8064938987f1541d132b095</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\be9cc044-cb24-4431-9a2e-4291c859c3a8.jpeg" highlight="0,0,1680,1010" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Shoe Store</Name>
+    <Description>Browser</Description>
+    <StartTime>2016-05-02 16:29:57</StartTime>
+    <Duration>22</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\raoam\Desktop\Shoe.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Shoe Store]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Browser]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Shoe Store.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>41580fe5c184463fa27aa13ad374a5a9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>The "Jimmy Choo" Link object was not found in the Object Repository.</Name>
+    <ErrorText>The "Jimmy Choo" Link object was not found in the Object Repository.
+Check the Object Repository to confirm that the object exists or to find the correct name for the object.</ErrorText>
+    <Description>The &amp;quot;Jimmy Choo&amp;quot; Link object was not found in the Object Repository.&lt;BR/&gt;Check the Object Repository to confirm that the object exists or to find the correct name for the object.&lt;BR/&gt;Line (21): &amp;quot;oPg.Link(&amp;quot;Jimmy Choo&amp;quot;).Click&amp;quot;. </Description>
+    <StartTime>2016-05-02 16:30:19</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>Action1</ModuleName>
+          <FileName>Action1</FileName>
+          <Language>VBScript - script block</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>oPg.Link("Jimmy Choo").Click</Scripts>
+          <LineNo>21</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>C:\Users\raoam\Desktop\Shoe.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Shoe Store]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Shoe Store:]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[The &quot;Jimmy Choo&quot; Link object was not found in the Object Repository.<BR/>Check the Object Repository to confirm that the object exists or to find the correct name for the object.<BR/>Line (21): &quot;oPg.Link(&quot;Jimmy Choo&quot;).Click&quot;. ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Shoe Store:.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>b3d95b4bf8064938987f1541d132b095</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\d8a846a5-bb12-400c-a152-e6ec6686dba3.jpeg" highlight="0,97,1680,913" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Shoe Store:</Name>
+    <Description>Page</Description>
+    <StartTime>2016-05-02 16:30:19</StartTime>
+    <Duration>14</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\raoam\Desktop\Shoe.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Shoe Store]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Shoe Store:]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Shoe Store:.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7458fd03c38c411d98b1aaeb468b7d69</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Shoe Store</Name>
+    <Description>Browser</Description>
+    <StartTime>2016-05-02 16:30:19</StartTime>
+    <Duration>14</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\raoam\Desktop\Shoe.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Shoe Store]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Browser]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Shoe Store.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>41580fe5c184463fa27aa13ad374a5a9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Images Lookup</Name>
+    <Description>Shoe images are missing for this brand</Description>
+    <StartTime>2016-05-02 16:30:33</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>50a27aa87a7a4442981c8fd83cca99b7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Shoe Store.Close</Name>
+    <Description />
+    <StartTime>2016-05-02 16:30:34</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\raoam\Desktop\Shoe.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Shoe Store]]></Name>
+          </Object>
+        </Path>
+        <Operation>Close</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Shoe Store.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>41580fe5c184463fa27aa13ad374a5a9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Shoe Store</Name>
+    <Description>Browser</Description>
+    <StartTime>2016-05-02 16:30:34</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\raoam\Desktop\Shoe.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Shoe Store]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Browser]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Shoe Store.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>41580fe5c184463fa27aa13ad374a5a9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2016-05-02 16:29:48</StartTime>
+    <Duration>46</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>8a2d1a6a23054e4ea12abdb9b1068c34</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2016-05-02 16:29:48</StartTime>
+    <Duration>46</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>71effda3b0c64d49a484c6cd8501e7e8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>VerifyImag</Name>
+    <ToolName>HP Unified Functional Testing</ToolName>
+    <ToolVersion>12.52</ToolVersion>
+    <Description />
+    <StartTime>2016-05-02 16:29:47</StartTime>
+    <Duration>47</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>ee2d8f46cee649c4bb8cdf40493e4b0c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-04:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>raoam</User>
+      <CpuInfo>Intel(R) Core(TM) i7-2675QM CPU @ 2.20GHz</CpuInfo>
+      <NumberOfCores>1</NumberOfCores>
+      <TotalMemory>8021</TotalMemory>
+      <HostName>DESKTOP-BVH9UC5</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res2</ResultName>
+    <RunStartTime>2016-05-02 16:29:47</RunStartTime>
+    <Timezone>-04:00:00</Timezone>
+    <OrchestrationToolName>HP Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>12.52</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>

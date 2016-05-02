@@ -1,0 +1,283 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "chrome.exe",3</Name>
+    <StartTime>2016-05-02 17:39:19</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>5360899f2ed641749fb1cc4a4f92b079</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>The "Shoe Store" Browser object was not found in the Object Repository.</Name>
+    <ErrorText>The "Shoe Store" Browser object was not found in the Object Repository.
+Check the Object Repository to confirm that the object exists or to find the correct name for the object.</ErrorText>
+    <Description>The &amp;quot;Shoe Store&amp;quot; Browser object was not found in the Object Repository.&lt;BR/&gt;Check the Object Repository to confirm that the object exists or to find the correct name for the object.&lt;BR/&gt;Line (12): &amp;quot;Set oBrow=Browser(&amp;quot;Shoe Store&amp;quot;)&amp;quot;. </Description>
+    <StartTime>2016-05-02 17:39:25</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>Action1</ModuleName>
+          <FileName>Action1</FileName>
+          <Language>VBScript - script block</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>Set oBrow=Browser("Shoe Store")</Scripts>
+          <LineNo>12</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>dc9d70b283f54c63bfc5e546c81524bb</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Object required: ''</Name>
+    <ErrorText>Object required: ''</ErrorText>
+    <Description>&lt;BR/&gt;Line (13): &amp;quot;Set oPg=oBrow.Page(&amp;quot;Shoe Store:&amp;quot;)&amp;quot;.</Description>
+    <StartTime>2016-05-02 17:39:38</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>Action1</ModuleName>
+          <FileName>Action1</FileName>
+          <Language>VBScript - script block</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>Set oPg=oBrow.Page("Shoe Store:")</Scripts>
+          <LineNo>13</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>dc9d70b283f54c63bfc5e546c81524bb</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Object required: ''</Name>
+    <ErrorText>Object required: ''</ErrorText>
+    <Description>&lt;BR/&gt;Line (14): &amp;quot;oPg.Sync&amp;quot;.</Description>
+    <StartTime>2016-05-02 17:39:42</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>Action1</ModuleName>
+          <FileName>Action1</FileName>
+          <Language>VBScript - script block</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>oPg.Sync</Scripts>
+          <LineNo>14</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>dc9d70b283f54c63bfc5e546c81524bb</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Object required: ''</Name>
+    <ErrorText>Object required: ''</ErrorText>
+    <Description>&lt;BR/&gt;Line (17): &amp;quot;oPg.Link(&amp;quot;innertext:=January&amp;quot;).Click&amp;quot;.</Description>
+    <StartTime>2016-05-02 17:39:43</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>Action1</ModuleName>
+          <FileName>Action1</FileName>
+          <Language>VBScript - script block</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>oPg.Link("innertext:=January").Click</Scripts>
+          <LineNo>17</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>dc9d70b283f54c63bfc5e546c81524bb</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Object required: ''</Name>
+    <ErrorText>Object required: ''</ErrorText>
+    <Description>&lt;BR/&gt;Line (18): &amp;quot;oPg.Sync&amp;quot;.</Description>
+    <StartTime>2016-05-02 17:39:44</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>Action1</ModuleName>
+          <FileName>Action1</FileName>
+          <Language>VBScript - script block</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>oPg.Sync</Scripts>
+          <LineNo>18</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>dc9d70b283f54c63bfc5e546c81524bb</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Object required: ''</Name>
+    <ErrorText>Object required: ''</ErrorText>
+    <Description>&lt;BR/&gt;Line (19): &amp;quot;if oPg.WebElement(&amp;quot;wb_Shoes&amp;quot;).Exist(2) then&amp;quot;.</Description>
+    <StartTime>2016-05-02 17:39:45</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>Action1</ModuleName>
+          <FileName>Action1</FileName>
+          <Language>VBScript - script block</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>if oPg.WebElement("wb_Shoes").Exist(2) then</Scripts>
+          <LineNo>19</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>dc9d70b283f54c63bfc5e546c81524bb</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Object required: ''</Name>
+    <ErrorText>Object required: ''</ErrorText>
+    <Description>&lt;BR/&gt;Line (21): &amp;quot;oPg.Link(&amp;quot;Jimmy Choo&amp;quot;).Click&amp;quot;.</Description>
+    <StartTime>2016-05-02 17:39:46</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>Action1</ModuleName>
+          <FileName>Action1</FileName>
+          <Language>VBScript - script block</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>oPg.Link("Jimmy Choo").Click</Scripts>
+          <LineNo>21</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>dc9d70b283f54c63bfc5e546c81524bb</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Object required: ''</Name>
+    <ErrorText>Object required: ''</ErrorText>
+    <Description>&lt;BR/&gt;Line (25): &amp;quot;set cImg=oPg.childobjects(oImgDesc)&amp;quot;.</Description>
+    <StartTime>2016-05-02 17:39:48</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>Action1</ModuleName>
+          <FileName>Action1</FileName>
+          <Language>VBScript - script block</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>set cImg=oPg.childobjects(oImgDesc)</Scripts>
+          <LineNo>25</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>dc9d70b283f54c63bfc5e546c81524bb</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2016-05-02 17:39:51</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>f11d1420808f440490ffde9c7547bc11</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2016-05-02 17:39:19</StartTime>
+    <Duration>32</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>c7e3b7db9f754c399014a7cdd8ba62ad</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2016-05-02 17:39:19</StartTime>
+    <Duration>32</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>430e20d6e1354ca9864454957a972ae7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>VerifyImag</Name>
+    <ToolName>HP Unified Functional Testing</ToolName>
+    <ToolVersion>12.52</ToolVersion>
+    <Description />
+    <StartTime>2016-05-02 17:39:17</StartTime>
+    <Duration>34</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>05c68e8d4b4e43618cbb9ee338b5f32a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-04:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>raoam</User>
+      <CpuInfo>Intel(R) Core(TM) i7-2675QM CPU @ 2.20GHz</CpuInfo>
+      <NumberOfCores>1</NumberOfCores>
+      <TotalMemory>8021</TotalMemory>
+      <HostName>DESKTOP-BVH9UC5</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res7</ResultName>
+    <RunStartTime>2016-05-02 17:39:17</RunStartTime>
+    <Timezone>-04:00:00</Timezone>
+    <OrchestrationToolName>HP Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>12.52</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>
